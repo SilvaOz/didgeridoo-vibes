@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-white/30 z-50 border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-        <Link to="/" className="text-2xl font-serif text-sm">
+        <Link to="/" className="text-xl font-serif text-sm">
           WIRAQOCHA WAVES
         </Link>
 
@@ -16,8 +16,8 @@ export default function Navbar() {
           <Link to="/didgeridoo">Didgeridoo</Link>
           <Link to="/angebote">Angebote</Link>
       
-          <Link to="/clases">Buchen</Link>
-          <Link to="/contacto">Kontakt</Link>
+          <Link to="/termin">Termin buchen</Link>
+          <Link to="/kontakt">Kontakt</Link>
         </nav>
 
         <button 
@@ -40,7 +40,7 @@ export default function Navbar() {
           <Link to="/angebote" onClick={() => setMenuOpen(false)}
           className='hover:underline'
           >Angebote</Link>
-          <Link to="/termin-buchen" onClick={() => setMenuOpen(false)}
+          <Link to="/termin" onClick={() => setMenuOpen(false)}
           className='hover:underline'
           >Termin Buchen</Link>
           <Link to="/kontakt" onClick={() => setMenuOpen(false)}

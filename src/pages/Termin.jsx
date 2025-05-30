@@ -28,7 +28,7 @@ export default function Buchen() {
           />
 
           <p className="text-center text-sm text-gray-400">
-            * Si prefieres agendar por teléfono o necesitas algo especial, <Link to="/contacto" className="underline text-white">escríbeme aquí</Link>.
+            * Si prefieres agendar por teléfono o necesitas algo especial, <Link to="/kontakt" className="underline text-white">escríbeme aquí</Link>.
           </p>
         </section>
 
@@ -40,7 +40,7 @@ export default function Buchen() {
 
           <div className="mt-6">
             <Link
-              to="/contacto"
+              to="/kontakt"
               className="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition"
             >
               Solicitar llamada

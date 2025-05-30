@@ -3,8 +3,8 @@ import { useEffect } from 'react'
 import Lenis from '@studio-freight/lenis'
 import Home from './pages/Home'
 import Angebote from './pages/angebote/index'
-import Clases from './pages/Termin'
-import Contacto from './pages/Kontakt'
+import Buchen from './pages/Termin'
+import Kontakt from './pages/Kontakt'
 import Didgeridoo from './pages/Didgeridoo'
 import Healing from './pages/angebote/Healing'
 import Events from './pages/angebote/Events'
@@ -41,9 +41,8 @@ export default function App({ Component, pageProps }) {
         <Route path="/angebote/events" element={<Events />} />
         <Route path="/angebote/workshops" element={<Workshops />} />
         <Route path="/angebote/preise" element={<Preise />} />
-
-        <Route path="/termin-buchen" element={<Clases />} />
-        <Route path="/kontakt" element={<Contacto />} />
+        <Route path="/termin" element={<Buchen />} />
+        <Route path="/kontakt" element={<Kontakt />} />
       </Routes>
     </Router>
   )
