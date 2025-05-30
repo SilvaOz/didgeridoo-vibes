@@ -14,9 +14,8 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.5 }}
             >
-                <h2 className="text-5xl md:text-7xl font-serif tracking-widest mb-4">Didgeridoo Sound</h2>
-                <p className="text-lg md:text-xl text-gray-700">Sonidos ancestrales para el bienestar moderno</p>
-
+             <h2 className="text-5xl md:text-7xl font-serif text-[#1a1a1a] tracking-tight">WIRAQOCHA WAVES</h2>
+<p className="mt-6 text-lg text-gray-500 max-w-xl mx-auto tracking-widest">DIDGERIDOO – VIBRATIONEN DURCH JAHRTAUSENDE</p>
             </motion.div>
         </section>
     )
