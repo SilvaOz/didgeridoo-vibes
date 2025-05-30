@@ -1,12 +1,57 @@
-# React + Vite
+# 🌬️ Didgeridoo Experiences — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web project developed with **React + Vite** to offer immersive experiences around the sacred vibrations of the **didgeridoo**. It includes sound healing sessions, workshops, live performances, and custom collaborations — all wrapped in a mystical, modern digital space.
 
-Currently, two official plugins are available:
+The site is designed to inspire, inform, and facilitate direct booking through an intuitive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ SPA built with React and React Router
+- 💨 Vite for blazing-fast development and optimized build
+- 🎨 Tailwind CSS for responsive and elegant styling
+- 📅 Embedded Amelia (or similar) booking system
+- 🔄 Reusable components and modular structure
+- 📱 Mobile-friendly and accessible
+- 💌 Integrated contact options for collaborations or questions
+- 💸 Booking and payment info included (PayPal, bank transfer, cash)
+
+---
+
+## 📁 Project Structure
+
+src/
+├── assets/ # Logos, images, icons
+├── components/ # Navbar, Footer, HeroStatic, SubNav, etc.
+├── pages/
+│ ├── Home.jsx
+│ ├── Healing.jsx
+│ ├── Events.jsx
+│ ├── Workshops.jsx
+│ ├── Preise.jsx
+│ ├── Buchen.jsx
+│ └── Kontakt.jsx
+├── App.jsx
+└── main.jsx
+
+
+---
+
+## 🚀 Getting Started (Development)
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/didgeridoo-experiences.git
+   cd didgeridoo-experiences
+npm install
+npm run dev
+Visit http://localhost:5173 in your browser.
+
+
+
+
+
+
+
+
