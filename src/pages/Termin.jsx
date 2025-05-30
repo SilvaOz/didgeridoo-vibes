@@ -7,7 +7,7 @@ export default function Buchen() {
   return (
     <>
       <Navbar />
-      <HeroStatic image="/images/buchen.jpg" title="Reservar una experiencia" />
+      <HeroStatic image="/images/termin.jpg" title="Reservar una experiencia" />
 
       <main className="px-6 py-16 max-w-2xl mx-auto text-gray-300 space-y-10">
         <section className="text-center">

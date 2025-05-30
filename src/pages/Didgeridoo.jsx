@@ -11,7 +11,7 @@ export default function Didgeridoo() {
       <Navbar />
 
       <HeroStatic
-        image="/images/hero-didgeridoo.jpg"
+        image="/images/didgeridoo.jpg"
         title="El Camino del Didgeridoo"
       />
       

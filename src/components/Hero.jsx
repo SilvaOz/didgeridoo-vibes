@@ -1,13 +1,9 @@
 import { motion } from 'framer-motion'
-import Scene from '../scenes/Scene'
+
 
 export default function Hero() {
     return (
-        <section className="h-screen flex items-center justify-center bg-white">
-            {/* <div className="absolute inset-0 z-0">
-                <Scene />
-            </div> */}
-
+        <section className="h-screen flex items-center justify-center" style={{ background: 'linear-gradient1800deg, #e9d8a6 0%, #f4e2d8 50%)' }}>
             <motion.div
                 className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4"
                 initial={{ opacity: 0, y: -20 }}

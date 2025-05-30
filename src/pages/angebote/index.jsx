@@ -11,7 +11,7 @@ export default function Angebote() {
       <Navbar />
 
       <HeroStatic 
-        image="/images/hero-angebote.jpg"
+        image="/images/angebote.jpg"
         title="Angebote"
       />
       <SubNavAngebote />

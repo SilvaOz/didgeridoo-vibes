@@ -6,7 +6,7 @@ export default function Kontakt() {
   return (
     <>
       <Navbar />
-      <HeroStatic image="/images/contact.jpg" title="Contacto" />
+      <HeroStatic image="/images/kontakt.jpg" title="Contacto" />
 
       <main className="px-6 py-16 max-w-2xl mx-auto text-gray-300 space-y-12">
         <section className="text-center">

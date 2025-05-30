@@ -8,7 +8,7 @@ export default function Workshops() {
   return (
     <>
       <Navbar />
-      <HeroStatic image="/images/workshops.jpg" title="Workshops" />
+      <HeroStatic image="/images/workshop.jpg" title="Workshops" />
       <SubNavAngebote />
 
       <main className="px-6 py-16 max-w-3xl mx-auto text-gray-300 space-y-10">
